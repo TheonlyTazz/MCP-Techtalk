@@ -1,8 +1,8 @@
 # MCP Tech Talk · Giffits Cyberspace
 
-Eine interaktive, zweisprachige Tech-Talk-Präsentation über das Model Context Protocol (MCP). Die React-, Three.js- und Framer-Motion-Oberfläche stellt den Symfony-basierten Giffits-Webshop als zentralen Knoten dar und verbindet ihn mit Satelliten für Produktdaten, Preise und Veredelungen.
+Eine interaktive, zweisprachige Tech-Talk-Präsentation über das Model Context Protocol (MCP). Die React-, Three.js- und Framer-Motion-Oberfläche macht aus dem Giffits-Symfony-Shop eine begehbare Cyberstadt: Jedes Servergebäude steht für eine MCP-Fähigkeit und zeigt passende Tools.
 
-An interactive bilingual tech talk about the Model Context Protocol (MCP). The React, Three.js and Framer Motion interface represents the Symfony-based Giffits shop as the central node and connects it to satellites for product data, pricing and finishing options.
+An interactive bilingual tech talk about the Model Context Protocol (MCP). The React, Three.js and Framer Motion interface turns the Giffits Symfony shop into a flyable cyber city. Each server house represents an MCP capability and displays its tools.
 
 ## Entwicklung · Development
 
@@ -25,9 +25,9 @@ npm run preview
 ## Bedienung · Controls
 
 - Zwischen Deutsch und Englisch über den Sprachschalter wechseln. / Switch between German and English with the language toggle.
-- Die Netzwerkansicht zeigt den Giffits-Symfony-Webshop im Zentrum sowie den KI-Client und MCP-Server-Satelliten. / The network view shows the Giffits Symfony webshop at the center, alongside the AI client and MCP server satellites.
-- Einen 3D-Knoten oder die barrierefreie Knotenauswahl verwenden. Anfrage oder Antwort im JSON-RPC-Beispiel ansehen und kopieren. / Select any 3D node or use the keyboard-accessible node selector. Inspect and copy the request or response JSON-RPC envelope.
-- Die Szene kann mit Maus oder Touch erkundet werden. / Explore the scene with mouse or touch.
+- Ein MCP-Haus anklicken, um die Kamera heranzufliegen und rechts dessen Zweck, Tools und ein passendes JSON-RPC-Beispiel zu sehen. / Click an MCP house to fly closer and inspect its purpose, tools and matching JSON-RPC example.
+- **Flugmodus:** Die Stadt maximieren. Ziehen dreht die Kamera, Mausrad zoomt; nach einem Klick in die Karte bewegt **W/A/S/D** seitwärts/vorwärts und **Q/E** nach unten/oben. **Shift** beschleunigt. **Esc** beendet den Flugmodus. / **Flight mode:** Expand the city. Drag to look, use the wheel to zoom; click the map, then use **W/A/S/D** to move and **Q/E** to descend/climb. Hold **Shift** to move faster. Press **Esc** to exit flight mode.
+- Die neun Beispielhäuser decken Gateway, Produktkatalog, Lagerbestand, Kundenprofile, Preisberechnung, Rabatte, Währung, Veredelung und Produktionsprüfung ab. Die Szene ist eine Illustration und keine Live-Integration mit Giffits. / The nine sample houses cover the gateway, catalog, inventory, customer profiles, pricing, discounts, currency, finishing and production checks. The scene is illustrative and is not a live Giffits integration.
 
 ## GitHub Pages
 
