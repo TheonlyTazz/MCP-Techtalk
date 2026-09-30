@@ -114,15 +114,15 @@ function Satellite({ node, selected, onSelect, motionOn, language, position }: {
   const isProducts = node === 'products';
   return <group ref={root} position={position} onClick={(event) => { event.stopPropagation(); onSelect(node); }} onPointerOver={() => { document.body.style.cursor = 'pointer'; }} onPointerOut={() => { document.body.style.cursor = 'auto'; }}>
     <mesh position={[0, -0.44, 0]} rotation={[-Math.PI / 2, 0, 0]}>
-      <cylinderGeometry args={[0.74, 0.92, 0.16, 8]} />
+      <cylinderGeometry args={[0.5, 0.56, 0.12, 8]} />
       <meshStandardMaterial color="#111b33" metalness={0.8} roughness={0.28} emissive={accent} emissiveIntensity={0.14} />
     </mesh>
     <mesh ref={ring} position={[0, -0.31, 0]} rotation={[-Math.PI / 2, 0, 0]}>
-      <torusGeometry args={[0.73, 0.022, 8, 64]} />
+      <torusGeometry args={[0.53, 0.018, 8, 64]} />
       <meshBasicMaterial color={color} toneMapped={false} />
     </mesh>
     <mesh position={[0, -0.29, 0]} rotation={[-Math.PI / 2, 0, 0]}>
-      <torusGeometry args={[0.54, 0.008, 6, 48]} />
+      <torusGeometry args={[0.39, 0.008, 6, 48]} />
       <meshBasicMaterial color={color} transparent opacity={0.6} />
     </mesh>
     <mesh position={[0, 0.02, 0]}>
@@ -227,8 +227,8 @@ function CoreHub({ selected, onSelect, motionOn, language }: { selected: boolean
         <mesh position={[0, 0, 0]}><sphereGeometry args={[0.075, 16, 16]} /><meshBasicMaterial color="#fff6ff" toneMapped={false} /></mesh>
       </group>
     </group>
-    <Billboard position={[0, -1.27, 0]}>
-      <Text fontSize={0.13} color="#f0c7ff" anchorX="center" anchorY="middle" letterSpacing={0.11} outlineWidth={0.015} outlineColor="#07101d">{language === 'en' ? 'SYMFONY · GIFFITS MCP GATEWAY' : 'SYMFONY · GIFFITS MCP-GATEWAY'}</Text>
+    <Billboard position={[0, -1.02, 0]}>
+      <Text fontSize={0.12} color="#f0c7ff" anchorX="center" anchorY="middle" letterSpacing={0.1} outlineWidth={0.015} outlineColor="#07101d">{language === 'en' ? 'GIFFITS · MCP GATEWAY' : 'GIFFITS · MCP-GATEWAY'}</Text>
     </Billboard>
   </group>;
 }
